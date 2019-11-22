@@ -1,0 +1,34 @@
+{% extends 'core/home.html' %}
+
+{%  block agregar %}
+
+
+<h4>Modificar Productos</h4>
+
+<form action="" method="POST" enctype="multipart/form-data">
+
+    <div class="black-text" style="background-color:#FBDCD5">
+        {% csrf_token %}
+    
+        <table>
+
+          {{ form.as_table }} 
+    
+        </table> 
+
+        <input type="reset"  value="Limpiar">
+        <input type="submit" value="Modificar">
+           
+  
+    </div>
+       
+
+   
+
+</form>
+
+{{ mensaje }}
+
+
+
+{% endblock  %}

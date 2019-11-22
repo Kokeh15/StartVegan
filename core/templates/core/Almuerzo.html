@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="es">
+<meta charset="utf-8">
+
+<html>
+	<head>
+		<title>Almuerzos</title>
+	</head>
+	<body>
+
+		<img src="{% static 'core/burrito.jpg' %}" width="500px">
+		<h1>Precio :$5.000</h1> <br>
+		
+		<img src="{% static 'core/ensaladas.jpg' %}" width="400px">
+		<h1>Precio :$3.500</h1> <br>
+		
+		<img src="{% static 'core/nose.jpg' %}" width="400px">
+		<h1>Precio :$5.000</h1> <br>
+			
+		<img src="{% static 'core/salteado.jpg' %}" width="400px">
+		<h1>Precio :$3.000</h1> <br>	
+		
+		<img src="{% static 'core/tortados.jpg' %}" width="400px">
+		<h1>Precio :$8.500</h1> <br>
+			
+		<img src="{% static 'core/tofu.jpg' %}" width="400px">
+		<h1>Precio :$4.900</h1> <br>
+		
+		<img src="{% static 'core/polenta.jpg' %}" width="400px">
+		<h1>Precio :$6.000</h1> <br>
+		
+		<img src="{% static 'core/cafekino.jpg' %}" width="400px">
+		<h1>Precio :$5.000</h1> <br>
+		
+		{% block contenido %}
+
+		{% endblock %}
+
+
+
+	</body>
+</html>

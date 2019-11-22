@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="es">
+<meta charset="utf-8">
+
+<html>
+	<head>
+		<title>Almuerzos</title>
+	</head>
+	<body>
+
+		<img src="{% static 'core/cena1.jpg' %}" width="300px">
+		<h1>Precio :$5.000</h1> <br>
+		
+		<img src="{% static 'core/cena2.jpg' %}"width="400px">
+		<h1>Precio :$3.500</h1> <br>
+		
+		<img src="{% static 'core/cena3.jpg' %}" width="400px">
+		<h1>Precio :$5.000</h1> <br>
+			
+		<img src="{% static 'core/panqueques.jpg' %}" width="400px">
+		<h1>Precio :$3.000</h1> <br>	
+		
+		<img src="{% static 'core/cereales.jpg' %}" width="400px">
+		<h1>Precio :$5.000</h1> <br>
+			
+
+		{% block contenido %}
+
+		{% endblock %}
+	</body>
+</html>

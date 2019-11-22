@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="{% static 'core/Registrarse.css' %}">
+        <meta charset="UTF-8">
+		<meta name="description" content="Free Web tutorials">
+		<meta name="keywords" content="HTML,CSS,XML,JvaScript">
+		<meta name="author" content="Jorge Cortez">
+		<meta name="viewport" content="Width-device-width, initial-scale-1.0">
+		
+		
+<title>starvegan/registrese</title>
+
+<link rel="stylesheet" type="text/css" href="MisEstilos.css">
+</head>
+<body background =" {% static 'core/vegan.jpg' %}">
+
+
+
+<h1>Registrese a nuestra pagina </h1>
+<br>
+<form>
+
+
+<div id = "caja" </div>
+	Nombre: <input type="text" placeholder   ="Ingrese su nombre"   required  maxlength = "15"><br>
+	<br>
+	
+	Apellido: <input type="text" placeholder ="Ingrese su apellido"  required  maxlength = "15"><br> 
+	<br>
+	
+	<br>
+	Email: <input type="email"  placeholder ="Ingrese su email" required    ><br>
+	
+	<br>
+	Contraseña : <input type= "password"   required  maxlength = "20"   placeholder ="Contraseña" </password> <br>
+	
+	<br>
+	
+    <br>
+    
+	<br>
+    
+	
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+<br>
+
+
+
+    
+	<button type="submit" 
+	  onclick = "Saludo"> 
+	  Enviar
+	  </button>
+	  
+	 
+	<br>
+	
+	 <br>
+	 <button type ="reset" 
+	 onclick = "Usuario Eliminado">
+	 Borrar
+	 
+	 </button>
+	
+	 <input type="button" onclick="history.back()" name="Volver" value="Volver">
+	 
+	</form>
+	
+	 <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+     <script>
+        
+ 
+			function Saludo()
+			{ 
+			   alert("Usuario Registrado");	
+				}
+							
+	</script>						
+
+</body>
+</html>

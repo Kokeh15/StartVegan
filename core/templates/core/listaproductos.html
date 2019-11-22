@@ -1,0 +1,30 @@
+{% extends 'core/Almuerzo.html' %}
+
+{%  block contenido %}
+
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>Stock</th>
+        <th>Categoria</th>
+
+    </tr> 
+
+    {% for p in productoss %}
+
+    <tr>
+        <td>{{ p.nombre  }}</td>
+        <td>{{ p.precio }}</td>
+        <td>{{ p.stock }}</td>
+        <td>{{ p.categoria}}</td>
+
+    </tr>
+
+
+    {% endfor %}
+
+
+</table>
+
+{% endblock  %}
